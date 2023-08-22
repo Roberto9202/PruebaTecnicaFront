@@ -12,9 +12,6 @@ export default function Navigation() {
           <li>
             <Link className='link' href='/acercade'>Acerca de</Link>
           </li>
-          <li>
-            <Link className='link' href='/servicios'>Servicios</Link>
-          </li>
         </ul>
       </nav>
     </header>

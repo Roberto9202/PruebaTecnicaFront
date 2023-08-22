@@ -29,7 +29,7 @@ const submitForm = async (e) => {
         <form className="formulario" >
           <div className="caja">
             <label>Sucursal</label>
-            <input type="text" required name="sucursal" onChange={handleInput} />
+            <input type="text" required placeholder="001" name="sucursal" onChange={handleInput} />
           </div>
           <button type="button" onClick={submitForm}>Buscar Sucursal</button>
         </form>
